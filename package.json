@@ -1,0 +1,18 @@
+{
+  "name": "keygen",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "sign": "node sign.js",
+    "verify": "node verify.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Nihal",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "elliptic": "^6.6.1"
+  }
+}
